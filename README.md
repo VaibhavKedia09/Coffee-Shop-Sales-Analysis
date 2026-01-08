@@ -56,7 +56,8 @@ SQL was used to validate and cross-check KPIs generated in Excel.
 ```sql
 SELECT ROUND(SUM(money), 2) AS total_revenue
 FROM coffee_sales;
-
+```
+---
 
 ## Key Insights
 - Latte is the highest revenue-generating product.
