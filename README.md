@@ -1,72 +1,45 @@
 # Coffee Shop Sales Analysis ☕
 
-## Project Overview
-This project analyzes sales data from a coffee shop to understand revenue trends,
-customer purchasing behavior, and time-based demand patterns.
-
-The analysis was conducted using **Excel for dashboarding** and **SQL (SQLite) for KPI validation**.
+## Key Findings
+Coffee sales dominate overall revenue, with peak demand occurring during specific hours of the day (typically morning and evening). A few high-selling items drive most of the revenue, while several products contribute minimally and need optimization.
 
 ---
 
-## Objectives
-- Identify top-performing coffee products
-- Analyze monthly revenue trends
-- Understand peak sales hours
-- Calculate key business KPIs such as Total Revenue and Average Order Value (AOV)
+## Overview
+This project analyzes coffee shop sales data to uncover trends in revenue, product performance, and peak sales periods. It transforms transactional data into actionable insights to support better operational and business decisions.
 
 ---
 
-## Dataset
-- Source: Kaggle
-- Time Period: March 2024 – March 2025
-- Records: Transaction-level sales data
+## Dashboard Preview
+![Dashboard](Dashboard/Dashboard%20preview.png)
+
+---
+
+## Key Insights
+- Coffee-based beverages contribute the majority of total revenue, making them the core business driver.
+- Sales show clear time-based patterns, with peak demand during specific hours (typically morning rush and evening).
+- A small set of top-selling items generates a large portion of overall sales.
+- High-frequency, low-value orders drive volume, while fewer premium items contribute significantly to revenue.
+- Some products show consistently low demand, indicating opportunities for menu optimization or removal.
+
+---
+
+## Business Impact
+- Enables data-driven decision making, reducing reliance on guesswork in daily operations.
+- Improves profitability by identifying which products truly drive revenue vs. just sales volume.
+- Increases operational efficiency through better planning of staff, inventory, and peak-hour readiness.
+- Supports revenue growth strategies by aligning promotions and pricing with actual customer behavior.
+- Helps management make scalable business decisions (expansion, menu changes, pricing) based on real performance data.
 
 ---
 
 ## Tools Used
-- **Microsoft Excel** – Data cleaning, pivot tables, dashboard creation
-- **SQLite (SQL)** – KPI validation and analytical queries
-- **GitHub** – Project version control and portfolio hosting
+- SQL
+- Excel
 
 ---
 
-## Key KPIs
-- **Total Revenue**
-- **Average Order Value (AOV)**
-- **Revenue by Product**
-- **Monthly Revenue Trend**
-- **Revenue by Time of Day**
+## Conclusion
+This project demonstrates how sales data can be leveraged to improve decision-making, optimize operations, and enhance overall business performance. It highlights the importance of analytics in driving efficiency and sustainable growth in retail environments.
 
 ---
-
-## Excel Dashboard
-An interactive dashboard was created in Excel using pivot tables, slicers, and charts.
-
-📊 Key visuals include:
-- Coffee products by revenue
-- Monthly revenue trend
-- Revenue by time of day
-
----
-
-## SQL Analysis
-SQL was used to validate and cross-check KPIs generated in Excel.
-
-### Sample SQL Query – Total Revenue
-```sql
-SELECT ROUND(SUM(money), 2) AS total_revenue
-FROM coffee_sales;
-```
----
-
-## Key Insights
-- Latte is the highest revenue-generating product.
-- Sales peak at 10 AM, with a secondary peak at 4 PM.
-- Revenue is higher during colder months, especially October.
-- All transactions are digital, indicating a cashless customer base.
-
-## Business Recommendations
-- Introduce cold beverages to stabilize summer sales.
-- Increase staffing during peak hours (9–11 AM & 3–5 PM).
-- Launch loyalty rewards via digital payment platforms.
-- Experiment with extended evening hours on selected days.
