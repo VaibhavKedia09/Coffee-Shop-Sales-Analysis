@@ -1,21 +1,21 @@
 # Coffee Shop Sales Analysis ☕
 
-## Key Findings
+## 🔷 Key Findings
 Coffee sales dominate overall revenue, with peak demand occurring during specific hours of the day (typically morning and evening). A few high-selling items drive most of the revenue, while several products contribute minimally and need optimization.
 
 ---
 
-## Overview
+## 🔷 Overview
 This project analyzes coffee shop sales data to uncover trends in revenue, product performance, and peak sales periods. It transforms transactional data into actionable insights to support better operational and business decisions.
 
 ---
 
-## Dashboard Preview
+## 🔷 Dashboard Preview
 ![Dashboard](Dashboard/Dashboard%20preview.png)
 
 ---
 
-## Key Insights
+## 🔷 Key Insights
 - Coffee-based beverages contribute the majority of total revenue, making them the core business driver.
 - Sales show clear time-based patterns, with peak demand during specific hours (typically morning rush and evening).
 - A small set of top-selling items generates a large portion of overall sales.
@@ -24,7 +24,7 @@ This project analyzes coffee shop sales data to uncover trends in revenue, produ
 
 ---
 
-## Business Impact
+## 🔷 Business Impact
 - Enables data-driven decision making, reducing reliance on guesswork in daily operations.
 - Improves profitability by identifying which products truly drive revenue vs. just sales volume.
 - Increases operational efficiency through better planning of staff, inventory, and peak-hour readiness.
@@ -33,13 +33,13 @@ This project analyzes coffee shop sales data to uncover trends in revenue, produ
 
 ---
 
-## Tools Used
+## 🔷 Tools Used
 - SQL
 - Excel
 
 ---
 
-## Conclusion
+## 🔷 Conclusion
 This project demonstrates how sales data can be leveraged to improve decision-making, optimize operations, and enhance overall business performance. It highlights the importance of analytics in driving efficiency and sustainable growth in retail environments.
 
 ---
